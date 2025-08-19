@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+<test name="ChromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="os" value="mac"></parameter>
+    <classes>
+      <class name="testCases.RegistrationTest"/>
+     <!-- <class name="testCases.LoginTest"/>
+       <class name="testCases.LoginTestWithDataProviderInside"/>-->
+
+<!--      <class name="testCases.DropdownTest"/>-->
+
+    </classes>
+
+  </test> 
+</suite> <!-- Suite -->
+
+<!-- 
+
+Note :
+	
+In order to re-run only the failed test cases without making any changes in this XML file , it can be done
+by executing  testng-failed.xml present in test-ouput directory .
+
+This file will only contain the failed test cases.
+
+-->
