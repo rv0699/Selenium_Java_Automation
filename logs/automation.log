@@ -1,0 +1,57 @@
+2025-08-17 00:00:27 INFO  Utils:112 - [TestNG] Running:
+  /Users/com/Raghav/eclipse-workspace/OpenCartAutomationV1/grid.xml
+
+2025-08-17 00:00:30 INFO  RegistrationTest:108 - Navigating to Application URL
+2025-08-17 00:00:31 INFO  RegistrationTest:111 - Maximizing window
+2025-08-17 00:00:31 INFO  RegistrationTest:65 - Starting registerationTest_TC001
+2025-08-17 00:00:31 INFO  RegistrationTest:67 - Clicking on My Account link
+2025-08-17 00:00:31 INFO  RegistrationTest:70 - Clicking on Registration link
+2025-08-17 00:00:32 INFO  RegistrationTest:75 - Entering registration details
+2025-08-17 00:00:33 INFO  RegistrationTest:90 - Assertion for successful validation
+2025-08-17 00:00:33 INFO  RegistrationTest:91 - Ending registerationTest_TC001
+2025-08-17 00:00:33 INFO  RegistrationTest:117 - Closing browser
+2025-08-17 00:01:18 INFO  Utils:112 - [TestNG] Running:
+  /Users/com/Raghav/eclipse-workspace/OpenCartAutomationV1/grid.xml
+
+2025-08-17 00:01:20 INFO  RegistrationTest:108 - Navigating to Application URL
+2025-08-17 00:01:21 INFO  RegistrationTest:111 - Maximizing window
+2025-08-17 00:01:21 INFO  RegistrationTest:65 - Starting registerationTest_TC001
+2025-08-17 00:01:21 INFO  RegistrationTest:67 - Clicking on My Account link
+2025-08-17 00:01:21 INFO  RegistrationTest:70 - Clicking on Registration link
+2025-08-17 00:01:22 INFO  RegistrationTest:75 - Entering registration details
+2025-08-17 00:01:23 INFO  RegistrationTest:90 - Assertion for successful validation
+2025-08-17 00:01:23 INFO  RegistrationTest:91 - Ending registerationTest_TC001
+2025-08-17 00:01:23 INFO  RegistrationTest:117 - Closing browser
+2025-08-17 00:04:22 INFO  Utils:112 - [TestNG] Running:
+  /Users/com/Raghav/eclipse-workspace/OpenCartAutomationV1/grid.xml
+
+2025-08-17 21:53:49 INFO  RegistrationTest:95 - Initializing chrome
+2025-08-17 21:53:49 INFO  RegistrationTest:108 - Navigating to Application URL
+2025-08-17 21:53:52 INFO  RegistrationTest:111 - Maximizing window
+2025-08-17 21:53:52 INFO  RegistrationTest:65 - Starting registerationTest_TC001
+2025-08-17 21:53:52 INFO  RegistrationTest:67 - Clicking on My Account link
+2025-08-17 21:53:54 INFO  RegistrationTest:70 - Clicking on Registration link
+2025-08-17 21:53:56 INFO  RegistrationTest:75 - Entering registration details
+2025-08-17 21:53:59 INFO  RegistrationTest:90 - Assertion for successful validation
+2025-08-17 21:53:59 INFO  RegistrationTest:91 - Ending registerationTest_TC001
+2025-08-17 21:53:59 INFO  RegistrationTest:117 - Closing browser
+2025-08-17 22:10:03 INFO  RegistrationTest:95 - Initializing chrome
+2025-08-17 22:10:03 INFO  RegistrationTest:108 - Navigating to Application URL
+2025-08-17 22:10:04 INFO  RegistrationTest:111 - Maximizing window
+2025-08-17 22:10:05 INFO  RegistrationTest:65 - Starting registerationTest_TC001
+2025-08-17 22:10:05 INFO  RegistrationTest:67 - Clicking on My Account link
+2025-08-17 22:10:05 INFO  RegistrationTest:70 - Clicking on Registration link
+2025-08-17 22:10:06 INFO  RegistrationTest:75 - Entering registration details
+2025-08-17 22:10:06 INFO  RegistrationTest:90 - Assertion for successful validation
+2025-08-17 22:10:06 INFO  RegistrationTest:91 - Ending registerationTest_TC001
+2025-08-17 22:10:07 INFO  RegistrationTest:117 - Closing browser
+2025-08-17 22:14:44 INFO  RegistrationTest:95 - Initializing chrome
+2025-08-17 22:14:44 INFO  RegistrationTest:108 - Navigating to Application URL
+2025-08-17 22:14:45 INFO  RegistrationTest:111 - Maximizing window
+2025-08-17 22:14:45 INFO  RegistrationTest:65 - Starting registerationTest_TC001
+2025-08-17 22:14:45 INFO  RegistrationTest:67 - Clicking on My Account link
+2025-08-17 22:14:45 INFO  RegistrationTest:70 - Clicking on Registration link
+2025-08-17 22:14:46 INFO  RegistrationTest:75 - Entering registration details
+2025-08-17 22:14:46 INFO  RegistrationTest:90 - Assertion for successful validation
+2025-08-17 22:14:46 INFO  RegistrationTest:91 - Ending registerationTest_TC001
+2025-08-17 22:14:47 INFO  RegistrationTest:117 - Closing browser

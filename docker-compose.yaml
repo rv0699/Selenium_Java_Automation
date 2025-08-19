@@ -1,0 +1,51 @@
+# YAML files are quite strict about indentation so in order to execute the file correctly , indentation must be 
+# proper , other wise user may get duplicate key errors
+
+services:
+  selenium-hub:
+    image: selenium/hub:4.21.0
+    container_name: selenium-hub
+    ports:
+      - "4442:4442"
+      - "4443:4443"
+      - "4444:4444"
+    networks:
+      - grid
+
+  node-chromium:
+    image: selenium/node-chromium:4.21.0
+    container_name: node-chromium
+    shm_size: 2g
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+	  - SE_BROWSER_NAME=chrome   
+	  # Above parameter forces chromium to register as chrome . Since we are using node-chromium as chrome image is not 
+	  # directly supported on mac , we made changes to set the browser name as chrome
+	  - SE_NODE_MAX_SESSIONS=2
+    networks:
+      - grid
+    ports:
+      - "7900:7900"   # noVNC (Chromium) -> To view live session at http://localhost:7900
+
+  node-firefox:
+    image: selenium/node-firefox:4.21.0
+    container_name: node-firefox
+    shm_size: 2g
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    networks:
+      - grid
+    ports:
+      - "7901:7900"   # noVNC (Firefox) -> To view live session at http://localhost:7901
+
+networks:
+  grid:
+    driver: bridge
